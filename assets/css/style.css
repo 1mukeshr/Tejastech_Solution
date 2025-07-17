@@ -284,11 +284,11 @@ ul {
     background: linear-gradient(270deg, #5CB0E9 0%, #10DE65 100%);
   color: var(--tcm-white);
   font-size: 16px;
-  line-height: 16px;
+  line-height: 12px;
   font-weight: 500;
-  padding: 18px 25px 17px;
+  padding: 12px 20px;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 8px;
   transition: all 0.5s linear;
   text-transform: capitalize;
   z-index: 1;
@@ -715,14 +715,14 @@ header .menu li{
     align-items: center;
 }
 
-header a {
+.logo {
     font-size: 1.8rem;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
     letter-spacing: -0.5px;
 }
-header a span{
+.logo span{
     background: linear-gradient(270deg, #5CB0E9 0%, #10DE65 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -5465,7 +5465,7 @@ header ul li svg {
     margin-bottom: 78px;
 }
 
-.process-two ul li:nth-child(1),
+.process-two ul li:nth-child(3),
 .process-two ul li:nth-child(3) {
     margin-top: 80px;
 }
@@ -5511,32 +5511,6 @@ header ul li svg {
 
 .process-two ul li:nth-child(2) .process-two__count::before {
    background: linear-gradient(270deg, #5CB0E9 0%, #10DE65 100%);
-}
-
-.process-two__count::after {
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    border-radius: 50%;
-    border: 1px solid transparent;
-    background: linear-gradient(-90deg, #5CB0E9, #3D72FC) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    z-index: -1;
-}
-
-.process-two ul li:nth-child(2) .process-two__count::after {
-    border: 1px solid transparent;
-    background: linear-gradient(-90deg, #10DE65, #6065D4) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
 }
 
 .process-two__title {
