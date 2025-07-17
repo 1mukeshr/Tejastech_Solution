@@ -81,15 +81,6 @@
     .blog-two__meta-two li::before {
         left: -8px;
     }
-
-    .footer-widget-two__support {
-        padding-left: 70px;
-    }
-
-    .footer-widget-two__services {
-        padding-left: 65px;
-    }
-
     .services-three__single {
         padding: 30px 20px 30px;
     }
@@ -138,47 +129,7 @@
     .services-details__services-list-box {
         padding: 21px 15px 25px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Medium screen  */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .servces-one__img-box {
@@ -245,34 +196,6 @@
     .brand-one {
         padding-left: 0;
     }
-
-    .footer-widget__quick-links {
-        margin-left: 0;
-        padding-left: 0;
-    }
-
-    .footer-widget__quick-links:before {
-        display: none;
-    }
-
-    .footer-widget__support {
-        padding-left: 0;
-        margin-right: 0;
-        margin-top: 43px;
-    }
-
-    .footer-widget__support:before {
-        display: none;
-    }
-
-    .footer-widget__support:after {
-        display: none;
-    }
-
-    .footer-widget__newsletter {
-        margin-top: 43px;
-    }
-
     .about-two__left {
         max-width: 620px;
         margin: 0 auto 0;
@@ -363,26 +286,6 @@
 
     .newsletter-two__left {
         margin-bottom: 25px;
-    }
-
-    .footer-widget-two__quick-links {
-        margin-top: 0;
-        margin-left: 0;
-    }
-
-    .footer-widget-two__support {
-        margin-top: 47px;
-        padding-left: 0;
-    }
-
-    .footer-widget-two__services {
-        margin-top: 47px;
-        padding-left: 0;
-    }
-
-    .footer-widget-two__support:before,
-    .footer-widget-two__services:before {
-        display: none;
     }
 
     .about-three__left {
@@ -770,39 +673,6 @@
         display: none;
     }
 
-    .site-footer__top-inner {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .footer-widget__quick-links {
-        margin-left: 0;
-        padding-left: 0;
-    }
-
-    .footer-widget__quick-links:before {
-        display: none;
-    }
-
-    .footer-widget__support {
-        padding-left: 0;
-        margin-right: 0;
-        margin-top: 43px;
-    }
-
-    .footer-widget__support:before {
-        display: none;
-    }
-
-    .footer-widget__support:after {
-        display: none;
-    }
-
-    .footer-widget__newsletter {
-        margin-top: 43px;
-    }
-
     .about-two__left {
         max-width: 620px;
         margin: 0 auto 0;
@@ -925,39 +795,6 @@
     .newsletter-two__left {
         margin-bottom: 25px;
     }
-
-    .site-footer-two__about {
-        padding: 45px 25px 43px;
-    }
-
-    .footer-widget-two__quick-links {
-        margin-top: 0;
-        margin-left: 0;
-    }
-
-    .footer-widget-two__support {
-        margin-top: 47px;
-        padding-left: 0;
-    }
-
-    .footer-widget-two__services {
-        margin-top: 47px;
-        padding-left: 0;
-    }
-
-    .footer-widget-two__support:before,
-    .footer-widget-two__services:before {
-        display: none;
-    }
-
-    .site-footer-two__bottom-inner {
-        flex-direction: column;
-    }
-
-    .site-footer-two__copyright {
-        margin-bottom: 15px;
-    }
-
     .about-three__left {
         max-width: 600px;
         margin: 0 auto 0;
@@ -1266,54 +1103,7 @@
     .coming-soon-page__subscribe-box form {
         flex-direction: column;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
     .section-title {
@@ -1593,49 +1383,6 @@
     .blog-one {
         padding: 80px 0 80px;
     }
-
-    .site-footer__top-inner {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .site-footer__top-text br {
-        display: none;
-    }
-
-    .footer-widget__quick-links {
-        margin-left: 0;
-        padding-left: 0;
-        margin-top: 43px;
-    }
-
-    .footer-widget__quick-links:before {
-        display: none;
-    }
-
-    .footer-widget__support {
-        padding-left: 0;
-        margin-right: 0;
-        margin-top: 43px;
-    }
-
-    .footer-widget__support:before {
-        display: none;
-    }
-
-    .footer-widget__support:after {
-        display: none;
-    }
-
-    .footer-widget__newsletter {
-        margin-top: 43px;
-    }
-
-    .site-footer__shape-2 {
-        display: none;
-    }
-
     .about-two__left {
         margin-right: 0;
         margin-top: 0;
@@ -1923,44 +1670,6 @@
         right: 0;
         margin-top: 10px;
     }
-
-    .site-footer-two__about {
-        padding: 45px 25px 43px;
-    }
-
-    .footer-widget-two__quick-links {
-        margin-top: 47px;
-        margin-left: 0;
-    }
-
-    .footer-widget-two__support {
-        margin-top: 38px;
-        padding-left: 0;
-    }
-
-    .footer-widget-two__services {
-        margin-top: 38px;
-        padding-left: 0;
-    }
-
-    .footer-widget-two__support:before,
-    .footer-widget-two__services:before {
-        display: none;
-    }
-
-    .site-footer-two__bottom-inner {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .site-footer-two__copyright {
-        margin-bottom: 15px;
-    }
-
-    .site-footer-two__social-box {
-        flex-direction: column;
-    }
-
     .about-two__right .section-title__title {
         margin-right: 0;
     }
@@ -2689,16 +2398,6 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 1200px) and (max-width: 1822px) {
     .testimonial-one__bg {
         display: none;
@@ -2717,349 +2416,6 @@
 
 
 }
-
-
-
-
-
-
-
-/*--------------------------------------------------------------
-# All  Shop Page Responsive Css
---------------------------------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1319px) {
-    .cart-total li span:first-child {
-        margin-right: 40px;
-    }
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-
-
-    .product__sidebar {
-        max-width: 500px;
-        width: 100%;
-        margin: 60px auto 0px;
-    }
-
-    .product-details__left {
-        margin-right: 0;
-    }
-
-    .product-details__inner {
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-
-
-    .product__sidebar {
-        max-width: 500px;
-        width: 100%;
-        margin: 60px auto 0px;
-    }
-
-    .product-details__left {
-        margin-right: 0;
-    }
-
-    .product-details__right {
-        margin-top: 51px;
-    }
-
-    .cart-page__right {
-        margin-left: 0;
-        margin-top: 60px;
-    }
-
-    .sidebar-order-summary {
-        margin-top: 60px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 767px) {
-
-
-
-    .product {
-        padding: 70px 0 80px;
-    }
-
-    .product__sidebar {
-        max-width: 500px;
-        width: 100%;
-        margin: 60px auto 0px;
-    }
-
-
-    .product__showing-result {
-        display: block;
-        text-align: center;
-        padding-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .product__showing-text-box {
-        margin-bottom: 20px;
-    }
-
-    .product__showing-sort {
-        margin: 0 auto;
-    }
-
-    .product__all-tab-button {
-        position: relative;
-        top: 0;
-        width: 120px;
-        margin: 0px auto 30px;
-    }
-
-    .product__all-tab-single {
-        max-width: 350px;
-        margin: 0 auto;
-    }
-
-    .single-product-style2__content {
-        padding: 30px 30px 30px;
-        text-align: center;
-    }
-
-    .shop-category ul li a:after {
-        width: 35px;
-    }
-
-    .single-product-style2__review {
-        justify-content: center;
-    }
-
-    .single-product-style2__info {
-        justify-content: center;
-    }
-
-    .product-details__left {
-        margin-right: 0;
-    }
-
-    .product-details__inner {
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .product-details__buttons-boxes {
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .product-details__right {
-        margin-top: 51px;
-    }
-
-    .product-details {
-        padding: 80px 0px 80px;
-    }
-
-    .product-description {
-        padding: 0 0 60px;
-    }
-
-    .related-products {
-        padding: 0px 0px 80px;
-    }
-
-    .related-products__title h3 {
-        font-size: 30px;
-    }
-
-    .product-details__tab-content-inner {
-        padding: 20px 20px 20px;
-    }
-
-    .comments-area .comment {
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .review-one__content {
-        padding-left: 0;
-        margin-top: 25px;
-    }
-
-    .review-one__content-top {
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .review-form-one__rate-box {
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .review-form-one__rate {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
-    .cart-page__right {
-        margin-left: 0;
-        margin-top: 60px;
-    }
-
-    .cart-page {
-        padding: 72px 0px 80px;
-    }
-
-    .cart-total li {
-        font-size: 16px;
-    }
-
-    .cart-total li span:first-child {
-        font-size: 16px;
-        margin-right: 30px;
-        width: 115px;
-    }
-
-    .cart-page__sidebar {
-        padding: 28px 15px 30px;
-    }
-
-    .cart-page__buttons {
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .sidebar-order-summary {
-        margin-top: 60px;
-        padding: 37px 20px 45px;
-    }
-
-    .checkout-page {
-        padding: 80px 0 80px;
-    }
-
-    .wishlist-page {
-        padding: 80px 0px 80px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 500px) {
-    .checkout-page .billing_details {
-        padding: 53px 15px 60px;
-    }
-}
-
-
-
-
 
 @media only screen and (max-width: 610px) {
     .login-one__form .inner-title {

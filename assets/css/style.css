@@ -643,7 +643,7 @@ ul {
                 position: fixed;
                 height: 100%;
                 width: 250px;
-               background: linear-gradient(270deg, #5CB0E9 0%, #10DE65 100%);
+               background: #000000;
                  transition: left 0.3s ease-in-out;
                 padding: 20px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -4434,7 +4434,7 @@ header ul li svg {
 }
 
 .services-two__services-list-single:hover .services-two__services-list-inner li p {
-    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    background: linear-gradient(270deg, #10DE65 0%, #6065D4 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
@@ -7640,7 +7640,7 @@ header ul li svg {
 footer {
             background-color: #000;
             color: #fff;
-            padding: 40px 20px;
+            padding: 40px 0px 0px;
             width: 100%;
             position: relative;
             bottom: 0;
@@ -7655,6 +7655,7 @@ footer {
             justify-content: space-between;
             flex-wrap: wrap;
             gap: 20px;
+            padding-bottom: 40px;
         }
        
 
@@ -7727,17 +7728,30 @@ margin-bottom: 20px;
             color: #10DE65;
         }
 
-       
+       .copyright{
+        background: #333;
+        padding: 15px;
+        text-align: center;
+       }
+       .copyright p{
+        text-align: center;
+        font-size: 13px;
+        color: ;
+       }
 
         /* Responsive design */
         @media (max-width: 768px) {
             .footer-container {
-                flex-direction: column;
-                text-align: center;
+                text-align: left;
             }
-
+.footer-container{
+    gap: 10px;
+}
             .footer-column {
                 margin-bottom: 20px;
-                width: 48%;
+                width: 48%!important;
+            }
+            .footer-column.contact{
+                width: 100%!important;
             }
         }
