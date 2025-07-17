@@ -5502,7 +5502,8 @@ header ul li svg {
     font-size: 40px;
     line-height: 40px;
     font-weight: 700;
-    color: var(--tcm-white);
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
     counter-increment: count 1;
     content: "0"counter(count);
     transform: translateX(-50%);
