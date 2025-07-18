@@ -481,12 +481,13 @@
 .testimonial-two__single {
     position: relative;
     display: block;
-    background: linear-gradient(270deg, #1D253F 0%, #242E4B 100%);
+    background: linear-gradient(270deg, #1D253F 0%, #0a483a 100%);
     border: 2px solid rgba(255, 255, 255, 0.1);
-    border-radius: 40px;
+    border-radius: 20px;
     padding: 0px 30px 30px;
     padding-right: 0;
     margin-left: 30px;
+    margin-top: 50px;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -506,7 +507,7 @@
     left: -2px;
     right: -2px;
     bottom: -2px;
-    border-radius: 40px;
+    border-radius: 20px;
     border: 2px solid transparent;
     background: linear-gradient(90deg, #3D72FC, #5CB0E9) border-box;
     -webkit-mask: linear-gradient(#fff 0 0) padding-box,
@@ -601,7 +602,6 @@
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 15px;
-    margin-left: -60px;
 }
 
 .testimonial-two__client-img {
@@ -609,6 +609,7 @@
     display: block;
     width: 64px;
     overflow: hidden;
+    margin: -35px auto 0px;
     border-radius: 50%;
 }
 
