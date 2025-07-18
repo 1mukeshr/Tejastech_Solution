@@ -662,6 +662,7 @@ header .menu li{
                 display: block;
                 left: 0;
             }
+            
             .menu {
                 flex-direction: column;
                 gap: 20px;
@@ -2494,8 +2495,8 @@ header ul li svg {
     font-size: 40px;
     font-weight: 500;
     line-height: 40px !important;
-    font-family: var(--tcm-font) !important;
-    color: var(--tcm-white);
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
 }
 
 .counter-two__text {
@@ -3101,9 +3102,10 @@ header ul li svg {
 .about-two__experience-count-box span {
     font-size: 48px;
     font-weight: 700;
+    -webkit-text-stroke: 1px #10de65;
+    color: transparent;
     line-height: 48px !important;
-    font-family: var(--tcm-font) !important;
-    color: var(--tcm-base);
+   
 }
 
 .about-two__experience-text {
