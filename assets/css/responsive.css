@@ -2,9 +2,7 @@
 /* Large Screens: 1200px and above */
 @media only screen and (min-width: 1200px) and (max-width: 1822px) {
     /* General Layout Adjustments */
-    .about-one__left .section-title__title br {
-        display: none;
-    }
+   
 
     .counter-one__wrap {
         margin: 0 10px;
