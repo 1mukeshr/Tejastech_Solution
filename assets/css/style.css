@@ -3395,6 +3395,159 @@ footer {
 .client-name a {
     color: var(--tcm-white);
 }
+
+/* comming soon */
+/*--------------------------------------------------------------
+# Coming Soon Page
+--------------------------------------------------------------*/
+.page-header__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.coming-soon-page {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 10;
+}
+.coming-soon-page__content {
+    position: relative;
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.coming-soon-page__content .inner {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.coming-soon-page__content .big-title {
+    position: relative;
+    display: inline-block;
+        -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-size: 70px;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-spacing: 15px;
+}
+
+.coming-soon-page .timer-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 57px 0 42px;
+    z-index: 2;
+}
+
+.coming-soon-page .timer-box .countdown-timer li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin: 0px 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.coming-soon-page .timer-box .countdown-timer li span.days,
+.coming-soon-page .timer-box .countdown-timer li span.hours,
+.coming-soon-page .timer-box .countdown-timer li span.minutes,
+.coming-soon-page .timer-box .countdown-timer li span.seconds {
+    color: #ffffff;
+    font-size: 55px;
+        -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-weight: 700;
+    font-family: var(--tcm-font);
+}
+
+.coming-soon-page .timer-box .countdown-timer li span.timeRef {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 11px;
+    font-family: var(--tcm-font);
+}
+
+.coming-soon-page__content .inner .text {
+    position: relative;
+    display: block;
+    padding-bottom: 60px;
+}
+
+.coming-soon-page__content .inner .text p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.coming-soon-page__subscribe-box {
+    position: relative;
+    display: block;
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.coming-soon-page__subscribe-box form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.coming-soon-page__subscribe-box form input[type="email"] {
+    position: relative;
+    display: block;
+    max-width: 490px;
+    width: 100%;
+    height: 56px;
+    border-radius: 12px;
+    background: var(--tcm-black);
+    border: none;
+    color: var(--tcm-white);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 500ms ease 0s;
+    font-family: var(--tcm-font);
+    outline: none;
+}
+
+.coming-soon-page__subscribe-box form .coming-soon-page__btn {
+    border: none;
+}
 /* Footer container for columns */
 .footer-container {
     max-width: 1200px;
@@ -3492,6 +3645,31 @@ footer {
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .banner-content{
+        padding: 100px 20px;
+    }
+    .banner-content h1{
+        font-size: 35px;
+    }
+    .about-two__shape-1{
+     display: none;
+    }
+    .services-two .container{
+        flex-wrap: wrap;
+    }
+    .services-left{
+        width: 100%;
+    }
+    .services-items{
+        width: 100%;
+    }
+    .service-list-flex{
+        margin: 0px;
+        padding: 0px;
+    }
+    .service-list-flex li{
+        width: 100%;
+    }
     .footer-container {
         text-align: left;
         gap: 10px;
