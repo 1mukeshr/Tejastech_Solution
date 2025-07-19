@@ -1,27 +1,4 @@
 /*--------------------------------------------------------------
-# Responsive CSS for All Pages
---------------------------------------------------------------*/
-
-/* Base styles for elements repeated across multiple breakpoints */
-.section-title__title br,
-.about-two__right .section-title__title br,
-.about-four__right .section-title__title br,
-.services-four__right .section-title__title br,
-.process-one__text br,
-.process-two__text br,
-.services-one__text br,
-.newsletter-one__text br,
-.about-four__points-2 li .content p br,
-.portfolio-details__points-two-single p br,
-.main-slider__title br,
-.main-slider-two__title br,
-.main-slider-two__text br,
-.cta-one__title br,
-.team-two__text br,
-.coming-soon-page__content .inner .text p br {
-    display: none;
-}
-
 /* Large Screens: 1200px and above */
 @media only screen and (min-width: 1200px) and (max-width: 1822px) {
     /* General Layout Adjustments */
